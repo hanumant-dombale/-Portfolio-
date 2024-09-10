@@ -5,11 +5,11 @@
 }
 
 .main {
-    width: 100;
+    width: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("background image.jpg");
     background-position: center;
     background-size: cover;
-    height: 109vh;
+    height: 100vh;
 }
 
 .navber {
@@ -27,7 +27,7 @@
     height: 50px;
     width: 100px;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
 
 }
 
@@ -51,7 +51,7 @@ ul li {
     list-style: none;
     margin-left: 62px;
     margin-top: 27px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 ul li a {
@@ -67,10 +67,11 @@ ul li a:hover {
 }
 
 .contant {
-    padding-top: 40px;
-    width: 1200px;
+    margin-top: 100px;
+    margin-left: 20px;
+    padding: 20px;
+    width: 90%;
     height: auto;
-    margin: auto;
     color: #ffffff;
     position: relative;
 }
